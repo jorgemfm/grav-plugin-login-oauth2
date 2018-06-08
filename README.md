@@ -85,6 +85,7 @@ providers:
     enabled: true
     client_id: ''
     client_secret: ''
+    hosted_domain: ''
     options:
       scope: ['email', 'profile']
       avatar_size: 200
@@ -148,6 +149,7 @@ providers:
 |enabled|Enable or disable this specific provider. This stops its showing as an valid login option| [default: `true`] \| `false` |
 |client_id|The **Client ID** Provided by Google when you register an application for OAuth2 authentication | `<string>` |
 |client_secret|The **Client Secret** Provided by Google when you register an application for OAuth2 authentication | `<string>` |
+|hosted_domain| Used to restrict access to users on your G Suite/Google Apps for Business accounts. Leave empty for no domain restrictions
 |scope|An array of strings that define the OAuth2 scope. These can enable retrieving more data, but often require more permissions | e.g. `['email', 'profile']` |
 |avatar_size|The size in pixels of the avatar URL to store | e.g. `200` |
 

@@ -260,6 +260,10 @@ form:
                   type: text
                   label: PLUGIN_LOGIN_OAUTH2.CLIENT_SECRET
 
+                providers.google.hosted_domain:
+                  type: text
+                  label: PLUGIN_LOGIN_OAUTH2.HOSTED_DOMAIN
+
                 providers.google.options.scope:
                   type: selectize
                   size: large
